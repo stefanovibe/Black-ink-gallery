@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>گالری تاتو | Tattoo Studio</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#101010;color:#fff;
+font-family:Tahoma,Arial,sans-serif}
+header{text-align:center;padding:35px 15px;
+background:linear-gradient(#242424,#101010)}
+h1{letter-spacing:2px;margin-bottom:8px}
+header p{color:#bbb;font-size:14px}
+nav{text-align:center;padding:12px}
+nav a{color:#ddd;text-decoration:none;margin:8px;
+font-size:14px}
+h2{text-align:center;margin:30px 0}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);
+gap:12px;padding:12px;max-width:900px;margin:auto}
+.card{background:#202020;border-radius:10px;
+overflow:hidden;text-align:center;padding-bottom:12px}
+.card img{width:100%;aspect-ratio:1/1;object-fit:cover;
+display:block}
+.card p{font-size:13px;margin:12px 4px}
+.btn{display:inline-block;background:#c6a15b;color:#111;
+padding:10px 14px;border-radius:6px;text-decoration:none;
+font-size:12px;font-weight:bold}
+.contact{text-align:center;padding:35px 15px;
+background:#1c1c1c;margin-top:30px}
+footer{text-align:center;padding:20px;color:#888;
+font-size:12px}
+@media(min-width:650px){
+.gallery{grid-template-columns:repeat(3,1fr)}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>BLACK INK TATTOO</h1>
+  <p>هنر روی پوست، امضای شخصیت تو</p>
+  <a class="btn" href="#gallery">دیدن طرح‌ها</a>
+</header>
+
+<nav>
+  <a href="#gallery">گالری</a>
+  <a href="#contact">رزرو وقت</a>
+</nav>
+
+<h2 id="gallery">مدل‌های تاتو</h2>
+
+<div class="gallery">
+
+  <div class="card">
+    <img src="design1.jpg" alt="طرح تاتو اول">
+    <p>تاتوی دارک</p>
+    <a class="btn" href="#contact">سفارش این طرح</a>
+  </div>
+
+  <div class="card">
+    <img src="design2.jpg" alt="طرح تاتو دوم">
+    <p>تاتوی مینیمال</p>
+    <a class="btn" href="#contact">سفارش این طرح</a>
+  </div>
+
+  <div class="card">
+    <img src="design3.jpg" alt="طرح تاتو سوم">
+    <p>تاتوی بلک‌ورک</p>
+    <a class="btn" href="#contact">سفارش این طرح</a>
+  </div>
+
+</div>
+
+<section class="contact" id="contact">
+  <h2>برای رزرو وقت پیام بده</h2>
+  <p>طرح مورد علاقه‌ات رو انتخاب کن و با من تماس بگیر.</p>
+
+  <a class="btn"
+     href="https://wa.me/989121234567"
+     target="_blank">
+     پیام در واتساپ
+  </a>
+</section>
+
+<footer>
+  BLACK INK TATTOO © 2026
+</footer>
+
+</body>
+</html>
